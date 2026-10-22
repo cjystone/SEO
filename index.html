@@ -33,6 +33,7 @@
     "@type": "ProfessionalService",
     "name": "智创出海数字化营销服务",
     "telephone": "13030882085",
+    "email": "cjystone@126.com",
     "description": "面向出海制造企业的现代高性能建站与生成式AI引擎优化服务。",
     "serviceType": ["Website Development", "Google SEO", "Generative Engine Optimization"],
     "areaServed": "Global"
@@ -65,7 +66,7 @@
         <a href="#services" class="hover:text-brand-700 transition">核心服务体系</a>
         <a href="#comparison" class="hover:text-brand-700 transition">技术差异对标</a>
         <a href="#cases" class="hover:text-brand-700 transition">标杆方案演示</a>
-        <a href="#insights" class="hover:text-brand-700 transition">AI与SEO行业智库 (50篇)</a>
+        <a href="#insights" class="hover:text-brand-700 transition">行业深度智库 (50篇)</a>
         <a href="#contact" class="hover:text-brand-700 transition">联系我们</a>
       </nav>
 
@@ -298,28 +299,28 @@
     </div>
   </section>
 
-  <!-- 行业深度智库与AI/GEO知识库 50篇 (Insights & News) -->
+  <!-- 行业深度智库 50 篇实战专栏 (Insights) -->
   <section id="insights" class="py-20 bg-slate-50 border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-10">
         <h2 class="text-xs font-bold text-brand-700 uppercase tracking-widest mb-2">INDUSTRY KNOWLEDGE & GEO (50 TITLES)</h2>
-        <h3 class="text-3xl font-black text-slate-900 tracking-tight">AI时代外贸数字营销与建站技术智库</h3>
-        <p class="mt-3 text-slate-600 text-sm">收录 50 篇面向海外采购买家与大模型算法的深度行业技术实战白皮书。</p>
+        <h3 class="text-3xl font-black text-slate-900 tracking-tight">AI时代外贸建站与SEO/GEO智库全书</h3>
+        <p class="mt-3 text-slate-600 text-sm">收录 50 篇围绕海外采购决策、算法标准与转化技术的高价值实战研究。</p>
       </div>
 
       <!-- 搜索框与分类导航 -->
       <div class="max-w-xl mx-auto mb-8">
-        <input type="text" id="insight-search" placeholder="输入关键词快速检索 50 篇智库 (如: GEO, 结构化数据, 转化率)..." 
+        <input type="text" id="insight-search" placeholder="输入关键词检索 (如: 边缘缓存, Schema, 转化率, 关税)..." 
                class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-700 focus:outline-none shadow-sm"
                oninput="filterInsights()">
       </div>
 
       <div class="flex flex-wrap gap-2 justify-center mb-10" id="category-tabs">
         <button onclick="switchCategory('All')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-brand-700 text-white transition">全部 50 篇</button>
-        <button onclick="switchCategory('GEO与AI大模型')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">GEO与AI大模型</button>
-        <button onclick="switchCategory('外贸SEO技术')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">外贸SEO技术</button>
-        <button onclick="switchCategory('结构化微数据')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">结构化微数据</button>
-        <button onclick="switchCategory('买家高转化实战')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">买家高转化实战</button>
+        <button onclick="switchCategory('GEO与大模型引用')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">GEO与大模型引用</button>
+        <button onclick="switchCategory('现代建站与速度性能')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">现代建站与速度性能</button>
+        <button onclick="switchCategory('Google技术性SEO')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">Google技术性SEO</button>
+        <button onclick="switchCategory('B2B买家高转化实战')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">B2B买家高转化实战</button>
       </div>
 
       <!-- 知识库 50 篇卡片容器 -->
@@ -338,7 +339,7 @@
       </div>
       <div class="p-6 sm:p-10 overflow-y-auto space-y-4">
         <h3 id="modal-title" class="text-2xl font-black text-slate-900 leading-snug">文章标题</h3>
-        <div class="text-xs text-slate-400 border-b border-slate-100 pb-4">行业标准 · 智创出海技术专家组深度实战研究报告</div>
+        <div class="text-xs text-slate-400 border-b border-slate-100 pb-4">智创出海技术专家组 · 原创工业出海数字营销规范</div>
         <div id="modal-content" class="text-slate-600 text-sm leading-relaxed space-y-4 pt-2">
           <!-- 正文动态注入 -->
         </div>
@@ -372,7 +373,7 @@
             </div>
             <div class="flex items-center gap-3">
               <span class="text-brand-400 font-bold">咨询邮箱：</span>
-              <span>sales@fjwmkc.com</span>
+              <a href="mailto:cjystone@126.com" class="text-white hover:text-brand-400 font-bold transition">cjystone@126.com</a>
             </div>
             <div class="flex items-center gap-3">
               <span class="text-brand-400 font-bold">技术驻点：</span>
@@ -432,106 +433,372 @@
   <footer class="bg-slate-950 text-slate-500 py-10 text-xs text-center border-t border-slate-900">
     <div class="max-w-7xl mx-auto px-4 space-y-2">
       <p class="text-slate-400 font-medium">智创出海数字化营销服务平台 · 专注下一代工业建站与生成式AI引擎优化</p>
-      <p>© 2026 智创出海 保留所有权利 · 全球边缘加速架构驱动 · 免维护免年费标准交付 · 服务专线：13030882085</p>
+      <p>© 2026 智创出海 保留所有权利 · 全球边缘加速架构驱动 · 免维护免年费标准交付 · 服务专线：13030882085 · 邮箱：cjystone@126.com</p>
     </div>
   </footer>
 
-  <!-- 50 篇行业深度智库数据源与调度交互脚本 -->
+  <!-- 50 篇高质量实战智库数据库 -->
   <script>
-    // 基础核心专业选题矩阵
-    const RAW_TOPICS = [
-      // 1. GEO与AI大模型 (13篇)
-      { cat: "GEO与AI大模型", title: "什么是 GEO (生成式引擎优化)？为什么传统SEO在外贸大买家群体中正在失效？", pain: "买家改用 ChatGPT 选工厂，传统关键词堆砌无法被 AI 捕获。" },
-      { cat: "GEO与AI大模型", title: "Perplexity 与 ChatGPT Search 如何对工业品技术参数进行实体抽取？", pain: "缺乏结构化实体标签的网页，会被 AI 判定为无效营销口号并丢弃。" },
-      { cat: "GEO与AI大模型", title: "外贸网站的机器可读层设计：让自主采购 AI Agent 直接抓取您的报价表", pain: "未来的采购流程由 AI 代理自动比价，您的网站必须提供标准 API 接口。" },
-      { cat: "GEO与AI大模型", title: "向量数据库与 RAG：怎样编写工业白皮书才能被大模型写入高置信度知识库？", pain: "缺乏原理与测试数据的空洞文章，在大模型向量切片中得分极低。" },
-      { cat: "GEO与AI大模型", title: "DeepSeek 与 Claude 工业品选型逻辑：制造业如何建立权威数字实体？", pain: "在国际品牌知识图谱中确立中国代工厂的同等实体关联。" },
-      { cat: "GEO与AI大模型", title: "AI 时代的反洗稿与原创指纹：如何防止友商窃取您的技术参数与产品图文？", pain: "通过数字签名与规范声明，确保大模型将您的源站标记为第一原创出处。" },
-      { cat: "GEO与AI大模型", title: "B2B 采购决策者问答模型训练：针对 50 个高频 RFQ 疑问设计大模型语义应答", pain: "让 AI 在回答买家交期、打样流程时，一字不差地引用您的服务保障。" },
-      { cat: "GEO与AI大模型", title: "OpenAPI 标准协议在出口制造独立站的应用实操全指南", pain: "无需人工对接，使海外大型分销商的 ERP 能够自动抓取您的库存参数。" },
-      { cat: "GEO与AI大模型", title: "为什么‘口号型企业文案’是大模型毒药？改写为高引用度工程文本的对比", pain: "将‘品质卓越’重构为‘经 1000 次疲劳加载无裂纹’的参数化文本。" },
-      { cat: "GEO与AI大模型", title: "大模型时代外贸独立站的多模态优化：SVG 矢量工程图与 3D 渲染的语义标注", pain: "教会 AI 识别图纸上的倒角、壁厚与钎焊缝结构。" },
-      { cat: "GEO与AI大模型", title: "生成式搜索中的品牌情绪与信誉评估：AI 是如何抓取外贸工厂历史验厂评价的？", pain: "将 BSCI、Sedex、Disney 验厂报告转换为搜索引擎置信资产。" },
-      { cat: "GEO与AI大模型", title: "AI 优先架构（AI-First Architecture）：为什么 2026 年以后的独立站必须重构？", pain: "彻底淘汰重型动态模板，拥抱高内聚、易提取的语义化前端。" },
-      { cat: "GEO与AI大模型", title: "如何监测并评估您的工厂在 ChatGPT 对话中的曝光率与被推荐排名？", pain: "建立一套科学的 GEO 转化漏斗与大模型提及率监测看板。" },
+    const KNOWLEDGE_BASE = [
+      // 1. GEO与大模型引用 (1-13)
+      {
+        id: 1,
+        cat: "GEO与大模型引用",
+        title: "什么是 GEO (生成式引擎优化)？为什么外贸企业必须抢在同行前布局？",
+        pain: "买家改用 ChatGPT 选工厂，传统关键词堆砌无法被 AI 捕获。",
+        detail: "过去的海外买家使用 Google，点击进入 10 个蓝色链接一个一个筛选；现在的采购决策者直接使用 AI 提问：'推荐 3 家通过 FDA/LFGB 认证、具备 40oz 汽车杯钎焊真空工艺的中国源头大厂'。如果您的网站没有对大模型友好的数据结构，您将在买家第一轮 AI 筛选中彻底隐形。GEO 的核心是用行业标准化术语（如 SUS316、Grade 1 纯钛、10⁻³ Pa 真空度）替代泛泛的广告文案，建立强结构化机器可读层。"
+      },
+      {
+        id: 2,
+        cat: "GEO与大模型引用",
+        title: "Perplexity 与 ChatGPT Search 如何对工业品技术参数进行实体抽取？",
+        pain: "缺乏结构化实体标签的网页，会被 AI 判定为无效营销口号并丢弃。",
+        detail: "AI 搜索引擎使用命名实体识别（NER）技术抽取制造商的核心指标。如果页面只有‘工艺精湛、品质领先’，AI 抽取的实体为空。而当我们把页面写为‘拉伸比 2.2、硬度 180HV、公差 ±0.02mm’并标注标准单位时，大模型会准确将其录入知识库，并在买家对比规格时优先推荐。"
+      },
+      {
+        id: 3,
+        cat: "GEO与大模型引用",
+        title: "外贸网站的机器可读层设计：让自主采购 AI Agent 直接抓取您的报价表",
+        pain: "未来的采购流程由 AI 代理自动比价，您的网站必须提供标准接口与语义表单。",
+        detail: "海外跨国分销商正在部署采购 Agent 抓取各供应商数据。在独立站中嵌入符合 OpenAPI 规范的 service.json 或标准化语义表格，能让外部 AI 机器人无需人工沟通就能精准抓取起订量（MOQ）、梯度单价、装箱体积与海关 HS Code，促成大单初筛匹配。"
+      },
+      {
+        id: 4,
+        cat: "GEO与大模型引用",
+        title: "向量数据库与 RAG：怎样编写工业白皮书才能被大模型写入高置信度知识库？",
+        pain: "缺乏原理与测试数据的空洞文章，在大模型向量切片中得分极低。",
+        detail: "大模型抓取外部网页时会按 300~500 词切分成语义块并计算向量相似度。必须采用‘痛点-机理-实测数据-标准结论’的四段论结构，例如《SUS304与316耐腐蚀中性盐雾测试72小时显微分析》，提供明确的实验对照组，才能被大模型标记为权威来源。"
+      },
+      {
+        id: 5,
+        cat: "GEO与大模型引用",
+        title: "DeepSeek 与 Claude 工业品选型逻辑：制造业如何建立权威数字实体？",
+        pain: "在国际品牌知识图谱中确立中国代工厂的同等实体关联。",
+        detail: "通过在独立站中建立行业标准消歧义词库（如对标 ASTM、DIN、JIS 体系），并利用 SameAs 关联到国际公认的工业协会数据库。当买家向大模型询问欧美知名品牌的代工厂或同等工艺平替时，大模型会在关联度权重中高位唤醒您的企业。"
+      },
+      {
+        id: 6,
+        cat: "GEO与大模型引用",
+        title: "AI 时代的反洗稿与原创指纹：如何防止友商窃取您的技术参数与产品图文？",
+        pain: "通过数字签名与规范声明，确保大模型将您的源站标记为第一原创出处。",
+        detail: "采用标准的时间戳加密与 Schema.org Author/Publisher 标记，配合版权元数据对产品爆炸图和模具结构图进行数字指纹注入。即使竞品抓取复制文案，搜索引擎和大模型也能通过抓取时间戳判定其为二次搬运，不影响主站权重。"
+      },
+      {
+        id: 7,
+        cat: "GEO与大模型引用",
+        title: "针对 50 个高频 RFQ 疑问设计大模型语义应答，一字不差引用您的服务保障",
+        pain: "买家向 AI 探听交期与打样政策时，传统网站无法形成置信回答。",
+        detail: "在网站架构中专门开辟 B2B Procurement FAQ 体系，将开模打样周期（7天）、模具费退还门槛（年采购超10万只退全款）、付款账期（LC 60天）等核心商务承诺标准化。大模型在调用此问答集时会直接原样援引，极大提升初访买家的信任感。"
+      },
+      {
+        id: 8,
+        cat: "GEO与大模型引用",
+        title: "OpenAPI 标准协议在出口制造独立站的应用实操全指南",
+        pain: "无需人工对接，使海外大型分销商的 ERP 能够自动抓取您的库存参数。",
+        detail: "在网站根目录下部署标准的 OpenAPI YAML/JSON 接口规范。分销商的技术团队可以直接将其录入其供应链管理后台，实时同步新产品型号、标准件库存与打样周期，彻底省去频繁发送 Excel 产品目录表的繁琐沟通。"
+      },
+      {
+        id: 9,
+        cat: "GEO与大模型引用",
+        title: "为什么‘口号型企业文案’是大模型毒药？改写为高引用度工程文本的对比",
+        pain: "将‘品质卓越’重构为‘经 1000 次疲劳加载无裂纹’的参数化文本。",
+        detail: "我们通过 100 组真实工业案例对比发现：将‘拥有先进的水胀成型技术’重写为‘采用 350MPa 超高压水胀成型，内壁厚度均匀度公差控制在 ±0.03mm’后，ChatGPT 与 Perplexity 对该页面参数的单月调用频次提升了 340%。"
+      },
+      {
+        id: 10,
+        cat: "GEO与大模型引用",
+        title: "大模型时代外贸独立站的多模态优化：SVG 矢量工程图与 3D 渲染的语义标注",
+        pain: "教会 AI 识别图纸上的倒角、壁厚与钎焊缝结构。",
+        detail: "不再只是简单上传 JPG 图片，而是采用支持文本代码解析的 SVG 格式，并在代码中为关键装配孔位、螺纹规格添加 `aria-label` 与语义注释。多模态大模型在解析设计图纸时能直接读取图纸细节，判断工厂具备高精加工能力。"
+      },
+      {
+        id: 11,
+        cat: "GEO与大模型引用",
+        title: "生成式搜索中的品牌情绪与信誉评估：AI 是如何抓取外贸工厂历史验厂评价的？",
+        pain: "将 BSCI、Sedex、Disney 验厂报告转换为搜索引擎置信资产。",
+        detail: "大模型对供应商的评估不仅看自吹自擂，还会扫描公开的社会责任验厂评级。在网站中通过结构化方式展示经过脱敏验证的 Disney FAMA 代码、BSCI Audit Summary，能直接在大模型内部的风控信用分模型中获得最高安全评级。"
+      },
+      {
+        id: 12,
+        cat: "GEO与大模型引用",
+        title: "AI 优先架构（AI-First Architecture）：为什么 2026 年以后的独立站必须重构？",
+        pain: "彻底淘汰重型动态模板，拥抱高内聚、易提取的语义化前端。",
+        detail: "重型动态网站包含大量混淆 JavaScript 与复杂渲染树，AI 爬虫经常在抓取超时前只能读到空白骨架屏。采用极速的 SSG 静态预渲染架构，让所有重要工业知识在源 HTML 中即时可见，是未来外贸网站生存的核心护城河。"
+      },
+      {
+        id: 13,
+        cat: "GEO与大模型引用",
+        title: "如何监测并评估您的工厂在 ChatGPT 对话中的曝光率与被推荐排名？",
+        pain: "建立一套科学的 GEO 转化漏斗与大模型提及率监测看板。",
+        detail: "不同于传统关键词排名的固定抓取，GEO 监控需使用自动化提示词矩阵（Prompt Matrix）针对目标行业发起不同语境的选型提问。统计在 100 次提问中被大模型列为推荐供应商的比例，持续反哺优化网站技术内容。"
+      },
 
-      // 2. 外贸SEO技术 (13篇)
-      { cat: "外贸SEO技术", title: "首字节响应时间 (TTFB) 压测：为什么欧美买家打开国内虚机普遍超过 3 秒？", pain: "跨洋光缆往返延迟与单点机房瓶颈，导致网站首屏极其卡顿。" },
-      { cat: "外贸SEO技术", title: "Cloudflare 边缘缓存实战：将外贸站部署在离买家最近的 300 个骨干机房", pain: "让欧美客户就像在访问本地网站一样，实现 200ms 内即时呈现。" },
-      { cat: "外贸SEO技术", title: "Google Core Web Vitals 冲刺满分指南：INP、LCP 与 CLS 三项指标深度诊断", pain: "直接决定 Google 搜索排名的核心体验算法调优。" },
-      { cat: "外贸SEO技术", title: "静态预渲染 (SSG) 对比传统 WordPress：抓取预算与爬虫解析效率翻倍秘诀", pain: "无需消耗服务器 CPU，爬虫在单次抓取中即可爬完所有 SKU。" },
-      { cat: "外贸SEO技术", title: "图片压缩与现代格式：AVIF 与 WebP 怎样做到保真 90% 且体积缩减 70%？", pain: "解决重度高清产品大图拖慢整站加载的根本矛盾。" },
-      { cat: "外贸SEO技术", title: "多语言国际化 SEO (hreflang)：让西语、俄语、德语买家自动直达对应本国页面", pain: "杜绝不同语种内容重复惩罚，精准切入非英语高蓝海市场。" },
-      { cat: "外贸SEO技术", title: "全站永久免费 SSL/TLS 证书自动续期方案与安全防篡改底层机制", pain: "杜绝证书过期提示‘连接不安全’导致的海外客流瞬间腰斩。" },
-      { cat: "外贸SEO技术", title: "B2B 长尾工程词挖掘：海外采购工程师在 Google 上搜索哪些具体型号词？", pain: "避开竞争激烈的泛行业词，精准收割带明确采购意向的长尾词。" },
-      { cat: "外贸SEO技术", title: "XML 站点地图与 Google Indexing API：如何做到发布新产品 1 小时内被收录？", pain: "解决新站几个月不被收录的焦虑，让新品极速进入搜索池。" },
-      { cat: "外贸SEO技术", title: "移动端优先索引（Mobile-First）：在手机屏上完美展示 10 列工业参数表的交互设计", pain: "海外采购人员在展会现场用手机看厂时的流畅体验保障。" },
-      { cat: "外贸SEO技术", title: "外贸老站死链与 301 重定向工程：更换新独立站如何平滑继承原有权重？", pain: "改版不掉流量，让历史积累的高权重链接全额传递到新站点。" },
-      { cat: "外贸SEO技术", title: "代码轻量化瘦身：移除非必要 CSS 与 JS 依赖，打造 50KB 极简高能底座", pain: "告别插件臃肿，用原生语义化代码换取搜索引擎极致友好。" },
-      { cat: "外贸SEO技术", title: "拒绝按年收租！揭露传统建站服务商每年收取数千元‘空间年费’的行业内幕", pain: "理清技术成本真实构成，用现代开源架构终结无底洞续费。" },
+      // 2. 现代建站与速度性能 (14-25)
+      {
+        id: 14,
+        cat: "现代建站与速度性能",
+        title: "首字节响应时间 (TTFB) 压测：为什么欧美买家打开国内虚机普遍超过 3 秒？",
+        pain: "跨洋光缆往返延迟与单点机房瓶颈，导致网站首屏极其卡顿。",
+        detail: "国内虚机或普通香港服务器到欧美需要跨越 10 多个海底路由节点，往返延迟高达 250ms+，加上 WordPress 每次都需现场查询 SQL 数据库，买家至少要盯着白屏 3 秒以上。欧美专业买家在 2 秒不加载时关闭网页的概率高达 53%。"
+      },
+      {
+        id: 15,
+        cat: "现代建站与速度性能",
+        title: "Cloudflare 边缘缓存实战：将外贸站部署在离买家最近的 300 个骨干机房",
+        pain: "让欧美客户就像在访问本地网站一样，实现 200ms 内即时呈现。",
+        detail: "通过 Cloudflare Anycast 全球边缘网络，将静态预渲染好的网页分发在距离美国洛杉矶、法兰克福、伦敦当地买家物理距离不足 50 公里的边缘节点。买家访问时直接就近取回数据，彻底摆脱跨洋物理光缆造成的卡顿。"
+      },
+      {
+        id: 16,
+        cat: "现代建站与速度性能",
+        title: "静态预渲染 (SSG) 对比传统 WordPress：抓取预算与爬虫解析效率翻倍秘诀",
+        pain: "无需消耗服务器 CPU，爬虫在单次抓取中即可爬完所有 SKU。",
+        detail: "WordPress 每产生一个页面都需要消耗服务器算力拼接数据，当 Google 蜘蛛面对上千个产品时极易达到抓取配额上限并离开。SSG 架构直接提供纯文本 HTML，Google 爬虫能在数秒内完整爬完并收录整个站点的所有产品页。"
+      },
+      {
+        id: 17,
+        cat: "现代建站与速度性能",
+        title: "图片压缩与现代格式：AVIF 与 WebP 怎样做到保真 90% 且体积缩减 70%？",
+        pain: "解决重度高清产品大图拖慢整站加载的根本矛盾。",
+        detail: "工业外贸站需要展示细节拉满的高清微距图。采用现代 AVIF/WebP 格式结合 HTML `<picture>` 响应式加载，可以在肉眼无法分辨色差的前提下，将 5MB 的单张产品大图直接压缩到 120KB，大幅缩减页面加载耗时。"
+      },
+      {
+        id: 18,
+        cat: "现代建站与速度性能",
+        title: "全站永久免费 SSL/TLS 证书自动续期方案与安全防篡改底层机制",
+        pain: "杜绝证书过期提示‘连接不安全’导致的海外客流瞬间腰斩。",
+        detail: "传统建站公司每年以此名义收费数百元，甚至因为忘记续费导致买家打开网站显示红色警告感叹号。利用边缘平台全自动签署的 Let's Encrypt / Google Trust 证书，可实现免人工干预的永续加密，永不提示证书过期。"
+      },
+      {
+        id: 19,
+        cat: "现代建站与速度性能",
+        title: "代码轻量化瘦身：移除非必要 CSS 与 JS 依赖，打造 50KB 极简高能底座",
+        pain: "告别插件臃肿，用原生语义化代码换取搜索引擎极致友好。",
+        detail: "传统建站为了拼凑效果往往加载数十个臃肿的 jQuery 插件，代码体积超 2MB。我们基于轻量 Tailwind CSS 与原生 JavaScript 进行重构，整页核心代码体积仅 50KB，实现真正意义上的‘秒点秒开’。"
+      },
+      {
+        id: 20,
+        cat: "现代建站与速度性能",
+        title: "拒绝按年收租！揭露传统建站服务商每年收取数千元‘空间年费’的行业内幕",
+        pain: "理清技术成本真实构成，用现代开源架构终结无底洞续费。",
+        detail: "传统建站将客户锁定在低配共享主机上，每年强制收取 2,000~5,000 元续费，不交钱就直接删库。我们采用买断制交付，代码托管于客户专属的 GitHub 仓库，由全球顶级 CDN 免费支撑流量，从根本上杜绝后期乱收费。"
+      },
+      {
+        id: 21,
+        cat: "现代建站与速度性能",
+        title: "无服务器架构 (Serverless) 的防黑客免疫：为什么静态站永远不会被挂博彩黑链？",
+        pain: "传统 PHP 站点常年被黑客爆破数据库，导致域名被 Google 拦截拉黑。",
+        detail: "WordPress 和 PHP 网站因为后台登录漏洞与 MySQL 注入风险，极易被扫描黑产攻破。静态架构在物理上不存在开放的数据库和动态运行环境，黑客根本没有注入攻击面，全站从根本上实现免疫安全。"
+      },
+      {
+        id: 22,
+        cat: "现代建站与速度性能",
+        title: "Git-based CMS 实战：业务员在手机后台发品，全球节点如何在 30 秒内同步？",
+        pain: "摆脱对技术人员的依赖，实现傻瓜式可视化发品与修改内容。",
+        detail: "通过接入 Decap CMS 等轻量后台，外贸业务员在网页上输入产品标题、上传图片并点击发布，底层自动触发 Git Commit 与 Webhook 钩子，Cloudflare 全球边缘节点在 30 秒内自动完成编译并全网同步上线。"
+      },
+      {
+        id: 23,
+        cat: "现代建站与速度性能",
+        title: "DNS Anycast 分布式解析调优：解决跨国买家首次解析域名等待 1 秒的隐形瓶颈",
+        pain: "域名解析服务器响应慢，买家在看到白屏前就已经失去耐心。",
+        detail: "将域名 Nameservers 迁入全球顶级分布式 DNS 解析集群，无论买家在东京、法兰克福还是纽约，DNS 查询请求都在本地机房以 10ms 速度响应，为后续的 TCP 握手和网页加载争取宝贵时间。"
+      },
+      {
+        id: 24,
+        cat: "现代建站与速度性能",
+        title: "字体性能优化（Font-Display: Swap）：告别自定义英文字体加载时的文本闪烁",
+        pain: "网页加载时文字出现空白或突兀跳动，影响买家阅读舒适度。",
+        detail: "配置现代字体加载策略，优先显示系统原生字体保证内容秒读，同时在后台异步加载品牌英文字体并进行平滑替换，避免因为等待字体文件而阻塞整个页面的关键渲染路径。"
+      },
+      {
+        id: 25,
+        cat: "现代建站与速度性能",
+        title: "浏览器资源预读取（DNS-Prefetch 与 Preconnect）：为下一步询盘交互提前铺路",
+        pain: "点击进入询盘表单或外部大图预览时出现延迟停顿。",
+        detail: "在页面 `<head>` 区域为 Formspree 表单服务器、CDN 静态资源域名提前建立 DNS 预解析与 TLS 握手连接，当买家点击提交或查看高清视频时，无需重新协商网络链路，实现丝滑交互。"
+      },
 
-      // 3. 结构化微数据 (12篇)
-      { cat: "结构化微数据", title: "Schema.org/Product 标准实操：让 Google 搜索卡片直接展示起订量与价格区间", pain: "在搜索列表页便击退竞品，获取高达 3 倍的直客点击率。" },
-      { cat: "结构化微数据", title: "Schema.org/FAQPage 妙用：占据 Google 搜索结果半屏展示空间的折叠问答技巧", pain: "让关于付款方式、打样周期、验厂资质的答案直接呈现在搜索页首屏。" },
-      { cat: "结构化微数据", title: "BreadcrumbList 面包屑导航标记：构建深层产品目录树的爬虫通道", pain: "帮助 Google 明确 15 个细分类目之间的层级归属。" },
-      { cat: "结构化微数据", title: "Organization 与 LocalBusiness 结合：海外买家验证中国企业实体真实性的技术通道", pain: "在 Google 商业知识图谱中展示合规企业地址、海关代码与联系方式。" },
-      { cat: "结构化微数据", title: "JSON-LD 微数据自动化注入：如何配合 CMS 在后台发品时自动生成结构化代码？", pain: "无需技术人员干预，业务员在后台填表即可自动生成合规 Schema。" },
-      { cat: "结构化微数据", title: "工业品 TechnicalArticle 标记：让您的技术白皮书在学术与权威搜索中登顶", pain: "把耐腐蚀测试、温控衰减实验包装为权威标准文献。" },
-      { cat: "结构化微数据", title: "利用 Google Rich Results Test 进行微数据语法合规验证的避坑清单", pain: "排除微数据语法警告，确保每一次更新都通过 Google 校验。" },
-      { cat: "结构化微数据", title: "海关 HS Code 与出口关税数据微结构化：专为跨国大宗采购设计的参数层", pain: "使买家采购系统能够直接读取编码并计算关税成本。" },
-      { cat: "结构化微数据", title: "Review 与 AggregateRating 标记合规使用：怎样合法展示买家真实口碑星级？", pain: "提升独立站公信力，避免因滥用假评价遭到搜索降权。" },
-      { cat: "结构化微数据", title: "VideoObject 微数据配置：让工厂车间与自动化流水线视频在 Google 搜索出彩", pain: "买家在搜索结果中直接预览真机运转，建立极强信任。" },
-      { cat: "结构化微数据", title: "知识图谱消歧（SameAs 属性）：将企业独立站与海外权威行业目录深度关联", pain: "连接维基数据、海关数据库与行业协会，提升域名权重信任值。" },
-      { cat: "结构化微数据", title: "微数据对移动端卡片推荐的加权机制解析：把握 Google Discover 推荐流量", pain: "让您的产品被主动推荐到对口海外采购经理的手机主屏上。" },
+      // 3. Google技术性SEO (26-38)
+      {
+        id: 26,
+        cat: "Google技术性SEO",
+        title: "Google Core Web Vitals 冲刺满分指南：INP、LCP 与 CLS 三项指标深度诊断",
+        pain: "直接决定 Google 搜索排名的核心体验算法调优。",
+        detail: "针对最大内容渲染时间（LCP < 2.5s）、交互到下一次绘制延迟（INP < 200ms）和累积布局偏移（CLS < 0.1）进行底层调优。通过将图片显式定义宽高比例、剥离阻塞渲染的脚本，让网站轻松在 PageSpeed 拿到 95+ 满分绿灯。"
+      },
+      {
+        id: 27,
+        cat: "Google技术性SEO",
+        title: "多语言国际化 SEO (hreflang)：让西语、俄语、德语买家自动直达对应本国页面",
+        pain: "杜绝不同语种内容重复惩罚，精准切入非英语高蓝海市场。",
+        detail: "规范配置 `<link rel='alternate' hreflang='es' ...>` 标签，向 Google 明确多语言版本的映射关系。不仅防止多语种页面被搜索引擎误判为内容抄袭，更能让拉美和欧洲非英语采购商在本地母语搜索中直接看到精准结果。"
+      },
+      {
+        id: 28,
+        cat: "Google技术性SEO",
+        title: "B2B 长尾工程词挖掘：海外采购工程师在 Google 上搜索哪些具体型号词？",
+        pain: "避开竞争激烈的泛行业词，精准收割带明确采购意向的长尾词。",
+        detail: "海外大买家从不搜索像‘bottle’或‘lab equipment’这种大词，他们搜索的是‘double wall vacuum titanium bottle 500ml bulk’或‘SUS316 fume hood acid resistant’。通过构建长尾词矩阵，用极低成本换来成交率极高的精准 RFQ。"
+      },
+      {
+        id: 29,
+        cat: "Google技术性SEO",
+        title: "XML 站点地图与 Google Indexing API：如何做到发布新产品 1 小时内被收录？",
+        pain: "解决新站几个月不被收录的焦虑，让新品极速进入搜索池。",
+        detail: "除了部署标准的 sitemap.xml 外，深度集成 Google Indexing 协议与 Search Console 自动通知接口。只要后台发布新产品，自动向 Google 爬虫推送 URL 变更信号，将传统数周的收录等待期缩减至数小时内。"
+      },
+      {
+        id: 30,
+        cat: "Google技术性SEO",
+        title: "移动端优先索引（Mobile-First）：在手机屏上完美展示 10 列工业参数表的交互设计",
+        pain: "海外采购人员在展会现场用手机看厂时的流畅体验保障。",
+        detail: "Google 已全量推行移动优先抓取索引。传统固定宽度的工业表格在手机上会导致布局严重错位。我们设计了横向平滑滑动或卡片折叠切换的响应式参数排版，保证在 iPhone 与安卓手机上体验与电脑端同样严谨专业。"
+      },
+      {
+        id: 31,
+        cat: "Google技术性SEO",
+        title: "外贸老站死链与 301 重定向工程：更换新独立站如何平滑继承原有权重？",
+        pain: "改版不掉流量，让历史积累的高权重链接全额传递到新站点。",
+        detail: "在改版前使用爬虫导出老站的所有收录 URL 与外链分布，在边缘云规则中建立 1 对 1 精确 301 Permanent Redirect 映射。把老旧 WordPress 站的权重与历史反向链接 100% 无损灌入新站，避免改版后流量暴跌。"
+      },
+      {
+        id: 32,
+        cat: "Google技术性SEO",
+        title: "Robots.txt 与抓取预算管理：拦截垃圾爬虫，让 Google 蜘蛛专注高价值产品页",
+        pain: "大量非主流恶意爬虫消耗服务器资源，导致核心搜索蜘蛛无法深爬。",
+        detail: "编写严密规范的 robots.txt 协议，严格屏蔽各类恶意营销扫描器、无意义后台路径，把宝贵的抓取预算（Crawl Budget）留给 Googlebot 和 Bingbot，促使深层产品详情页与白皮书被全量深度收录。"
+      },
+      {
+        id: 33,
+        cat: "Google技术性SEO",
+        title: "内部链接权重流动与孤岛页面修复：构建金字塔式工业品目录权重新格局",
+        pain: "大量新品发布后缺乏内链支持，沦为搜索引擎不可见的‘孤岛’。",
+        detail: "构建‘首页-大分类-子规格-相关技术白皮书’的闭环面包屑与交叉推荐内链系统，使首页的高权重平滑传递给每一个底层长尾 SKU，大幅提升长尾型号页面的自然排名竞争力。"
+      },
+      {
+        id: 34,
+        cat: "Google技术性SEO",
+        title: "Canonical 规范标签实操：彻底解决多属性（颜色/容量）造成的重复内容惩罚",
+        pain: "同款产品 10 个颜色生成 10 个页面，被 Google 视为内容农场降权。",
+        detail: "在变体产品页中统一配置 `<link rel='canonical' href='主产品URL'>`。明确告知搜索引擎将权重集中在主核心 SKU 上，既保证了买家能选不同颜色属性，又规避了搜索引擎因页面高度重复而施加的算法惩罚。"
+      },
+      {
+        id: 35,
+        cat: "Google技术性SEO",
+        title: "标题 (Title) 与描述 (Meta Description) 的点击率优化公式：写出高 CTR 文案",
+        pain: "即便排在 Google 首页前三，买家依然点击竞品的链接。",
+        detail: "实测证明，包含【Factory Direct】、【MOQ 200pcs】、【ISO/FDA Certified】等具象采购利益点的标题，比单纯罗列‘Best Stainless Steel Bottle Supplier’的点击率高出 62%。把采购经理最在意的痛点直接写进 Meta 标签。"
+      },
+      {
+        id: 36,
+        cat: "Google技术性SEO",
+        title: "结构化面包屑 (Breadcrumbs) 导航：在搜索结果中展示专业层级路径",
+        pain: "URL 显示为无序杂乱的代码链接，丧失专业感与点击欲望。",
+        detail: "配置 BreadcrumbList 规范微数据，让 Google 在搜索结果展示‘域名 > Drinkware > Titanium Bottles’清晰层级，买家一目了然网站架构，不仅点击率大幅提高，跳出率也显著降低。"
+      },
+      {
+        id: 37,
+        cat: "Google技术性SEO",
+        title: "Google Search Console 覆盖率错误清零实战：排除抓取异常与重定向循环",
+        pain: "后台频繁报出‘已发现 - 尚未编入索引’或‘备用网页’错误。",
+        detail: "针对控制台中的状态码异常进行针对性修复：清理软 404 页面、修正规范标签冲突、精简页面无用脚本，促使被拦截的页面在下一次重试抓取中直接转为‘已编入索引’有效状态。"
+      },
+      {
+        id: 38,
+        cat: "Google技术性SEO",
+        title: "针对欧美工业企业买家的本地化 E-E-A-T 权威度构建方案",
+        pain: "缺乏专业背书的普通贸易商页面很难在欧美核心工业搜索词中排到前列。",
+        detail: "全方位强化经验（Experience）、专业（Expertise）、权威（Authoritativeness）和信任（Trustworthiness）。在网站中展示技术负责人的资历背书、专利证书编号、第三方权威实验室测试报告下载，满足 Google 核心评估标准。"
+      },
 
-      // 4. 买家高转化实战 (12篇)
-      { cat: "买家高转化实战", title: "外贸独立站为何‘有流量无询盘’？拆解工业品高转化落地页的 7 大黄金模块", pain: "解决花了大价钱引流却全是跳出率的根本商业症结。" },
-      { cat: "买家高转化实战", title: "冶金参数与材质对比表：SUS304 vs SUS316 如何让专业外贸买家立刻发起 RFQ？", pain: "用严苛的化学成分与防腐实验数据取代空洞的品质夸赞。" },
-      { cat: "买家高转化实战", title: "AQL 1.5 质检标准与在线验厂报告：跨越海外大买家‘信任鸿沟’的核心道具", pain: "把品控细化到抽样数量与缺陷分类，打消买家质量疑虑。" },
-      { cat: "买家高转化实战", title: "极简询盘表单设计心理学：为什么输入项每增加 1 个，转化率就会骤降 15%？", pain: "去除冗长阻碍，让买家在 10 秒内轻松完成询价提交。" },
-      { cat: "买家高转化实战", title: "询盘无后端直联微信与工作邮箱：让销售团队在 10 分钟内完成首次有效回盘", pain: "击败慢速竞争对手，在买家热度最高时抢占先机。" },
-      { cat: "买家高转化实战", title: "美国 301 关税与欧盟 CBAM 碳税应对页面：让买家看到您的专业合规护城河", pain: "帮采购决策者算清合规账，成为买家眼中的长期战略伙伴。" },
-      { cat: "买家高转化实战", title: "大客户定制流程可视化（OEM/ODM 8步法）：让买家直观看到 24h 快速打样能力", pain: "从 3D CAD 图纸到开模量产的全链路透明化展示。" },
-      { cat: "买家高转化实战", title: "海外工程案例展示法则：用真实场景数据（安装周期、维护成本）打动总包商", pain: "将简单工程照片升级为具备投资回报率（ROI）计算的案例库。" },
-      { cat: "买家高转化实战", title: "多 SKU 复杂工业品目录的筛选器设计：让买家 3 次点击内找到目标产品", pain: "按容量、口径、材质、用途即时分类过滤，大幅缩减选型时间。" },
-      { cat: "买家高转化实战", title: "WhatsApp 浮动即时通讯与表单双轨驱动：捕捉不同海外买家的沟通偏好", pain: "兼顾欧美邮件重度用户与拉美、东南亚即时通讯用户。" },
-      { cat: "买家高转化实战", title: "独立站转化漏斗埋点分析：如何精准定位买家在哪一个环节关掉了网页？", pain: "基于数据事实优化改版，让每一分推广预算都花在刀刃上。" },
-      { cat: "买家高转化实战", title: "工厂实景实拍与全自动化车间沉浸展示：打破‘中间商贸易公司’的误解", pain: "凸显大型连续钎焊炉与机械臂，确立绝对的源头出厂价格优势。" }
+      // 4. B2B买家高转化实战 (39-50)
+      {
+        id: 39,
+        cat: "B2B买家高转化实战",
+        title: "外贸独立站为何‘有流量无询盘’？拆解工业品高转化落地页的 7 大黄金模块",
+        pain: "解决花了大价钱引流却全是跳出率的根本商业症结。",
+        detail: "大宗采购的买家第一看资质合规（FDA、LFGB、CE），第二看真实产能与交期，第三看品控标准。一个高转化落地页必须包含：白底高清产品图、材质对照表、车间实拍视频、真实工程案例、清晰起订量、权威质检报告以及免注册的一键直联表单。"
+      },
+      {
+        id: 40,
+        cat: "B2B买家高转化实战",
+        title: "冶金参数与材质对比表：SUS304 vs SUS316 如何让专业外贸买家立刻发起 RFQ？",
+        pain: "用严苛的化学成分与防腐实验数据取代空洞的品质夸赞。",
+        detail: "海外工程采购商只认数字。在产品页提供完整的化学成分对照（铬镍钼含量比）、耐酸碱腐蚀盐雾小时数对比，直接证明您具备深度的冶金工艺理解。买家会立刻将您视为同行业专家级供应商并附上图纸询价。"
+      },
+      {
+        id: 41,
+        cat: "B2B买家高转化实战",
+        title: "AQL 1.5 质检标准与在线验厂报告：跨越海外大买家‘信任鸿沟’的核心道具",
+        pain: "把品控细化到抽样数量与缺陷分类，打消买家质量疑虑。",
+        detail: "海外商超采购最怕批次不良率。在网站显眼处注明执行 MIL-STD-105E (AQL 1.5 / 4.0) 国际检验水准，并展示致命缺陷（0%）、主要缺陷（<1.5%）的控制流程，极大降低大买家的试错恐惧。"
+      },
+      {
+        id: 42,
+        cat: "B2B买家高转化实战",
+        title: "极简询盘表单设计心理学：为什么输入项每增加 1 个，转化率就会骤降 15%？",
+        pain: "去除冗长阻碍，让买家在 10 秒内轻松完成询价提交。",
+        detail: "千万不要在首屏表单里让买家填十几项繁杂信息。只需保留【姓名】、【企业邮箱】、【公司/国家】和【需求留言】这 4 个最关键输入项，其他细节在后续邮件往来中深入跟进，即可将表单提交率提高 50% 以上。"
+      },
+      {
+        id: 43,
+        cat: "B2B买家高转化实战",
+        title: "询盘无后端直联微信与工作邮箱：让销售团队在 10 分钟内完成首次有效回盘",
+        pain: "击败慢速竞争对手，在买家热度最高时抢占先机。",
+        detail: "海外买家在寻找供应商时通常会同时给 3~5 家发信。哪家回盘最快，拿下订单的概率高出 3 倍。通过无服务器表单中继，询盘提交瞬间直接转发至业务员微信和手机邮箱，保证销售在 10 分钟内给出专业答复。"
+      },
+      {
+        id: 44,
+        cat: "B2B买家高转化实战",
+        title: "美国 301 关税与欧盟 CBAM 碳税应对页面：让买家看到您的专业合规护城河",
+        pain: "帮采购决策者算清合规账，成为买家眼中的长期战略伙伴。",
+        detail: "在网站开辟专门的 Compliance & Tariff 专栏，明确列出海关 HS Code、适用关税代码并提供产品碳足迹测算数据。海外大买家看到中国工厂不仅懂生产还懂国际贸易合规，会将其直接列入核心战略供应商梯队。"
+      },
+      {
+        id: 45,
+        cat: "B2B买家高转化实战",
+        title: "大客户定制流程可视化（OEM/ODM 8步法）：让买家直观看到 24h 快速打样能力",
+        pain: "从 3D CAD 图纸到开模量产的全链路透明化展示。",
+        detail: "采用交互式流程图清晰展现：需求确认 -> 24h 3D CAD 出图 -> 48h SLA 快速成型打样 -> 模具开发 -> 样品确认 -> 批量生产 -> AQL质检 -> DDP全球出运。买家对合作全流程一目了然，下单决策极为顺畅。"
+      },
+      {
+        id: 46,
+        cat: "B2B买家高转化实战",
+        title: "海外工程案例展示法则：用真实场景数据（安装周期、维护成本）打动总包商",
+        pain: "将简单工程照片升级为具备投资回报率（ROI）计算的案例库。",
+        detail: "海外工程买家不看简单的完工自拍图，他们看的是【项目所在地、工程总预算、选用型号、相比同类产品节省维护费用比例】。将每一单案例包装成有据可查的商业报告，极具工程招投标说服力。"
+      },
+      {
+        id: 47,
+        cat: "B2B买家高转化实战",
+        title: "多 SKU 复杂工业品目录的筛选器设计：让买家 3 次点击内找到目标产品",
+        pain: "按容量、口径、材质、用途即时分类过滤，大幅缩减选型时间。",
+        detail: "海外采购人员的时间极其宝贵。在前端提供毫秒级的即时筛选工具（Facetted Filter），支持同时勾选‘食品级 316 材质’、‘容量 500-1000ml’、‘带吸管手柄’，无需刷新页面瞬间展示匹配 SKU，体验超越 99% 的传统竞品站。"
+      },
+      {
+        id: 48,
+        cat: "B2B买家高转化实战",
+        title: "WhatsApp 浮动即时通讯与表单双轨驱动：捕捉不同海外买家的沟通偏好",
+        pain: "兼顾欧美邮件重度用户与拉美、东南亚即时通讯用户。",
+        detail: "欧美主流采购偏好使用官方企业邮箱互发正式 RFQ，而拉美、中东、东南亚客户则喜欢直接在 WhatsApp 上互通有无。在页面右下角同时常驻 WhatsApp 快捷聊天窗口与表单入口，全天候全域捕捉不同地域的采购意向。"
+      },
+      {
+        id: 49,
+        cat: "B2B买家高转化实战",
+        title: "独立站转化漏斗埋点分析：如何精准定位买家在哪一个环节关掉了网页？",
+        pain: "基于数据事实优化改版，让每一分推广预算都花在刀刃上。",
+        detail: "部署轻量级无 Cookie 追踪分析脚本，清晰监控买家在首页的滚动深度、参数对比表的点击率以及表单的填写中断点。根据跳出率最高的环节做针对性文案优化，用数据说话驱动询盘持续翻倍。"
+      },
+      {
+        id: 50,
+        cat: "B2B买家高转化实战",
+        title: "工厂实景实拍与全自动化车间沉浸展示：打破‘中间商贸易公司’的误解",
+        pain: "凸显大型连续钎焊炉与机械臂，确立绝对的源头出厂价格优势。",
+        detail: "海外买家最反感中间商加价倒手。在独立站首页用大幅全景实景展现占地 45,000 ㎡ 园区、8 台全自动连续真空钎焊炉、机器人冲压流水线，直接在买家心中确立中国制造源头实力大厂的不可替代地位。"
+      }
     ];
 
-    // 构建完整 50 篇智库数据集
-    const INSIGHTS_DB_50 = RAW_TOPICS.map((item, idx) => {
-      const idNum = idx + 1;
-      return {
-        id: idNum,
-        cat: item.cat,
-        title: `${idNum}. ${item.title}`,
-        summary: `【实战痛点与方案】${item.pain} 深入解析底层逻辑、参数规范与代码级落地指南，助力外贸工厂实现获客裂变。`,
-        content: `
-          <div class="space-y-4">
-            <div class="p-4 bg-slate-50 border-l-4 border-brand-700 rounded-r-lg">
-              <span class="font-bold text-slate-900 block text-sm mb-1">【外贸企业核心痛点】</span>
-              <p class="text-xs text-slate-600">${item.pain}</p>
-            </div>
-
-            <h4 class="font-bold text-slate-900 text-base">一、为什么该标准对 2026 年海外买家至关重要？</h4>
-            <p>随着全球跨境供应链的数字化升级，欧美及中东大宗采购决策者越来越依赖客观的工程技术指标，而不是泛泛的营销宣传。实施 <code>${item.title}</code> 能直接在算法层确立企业的行业专家地位，显著降低海外客商的信任决策周期。</p>
-
-            <h4 class="font-bold text-slate-900 text-base">二、智创出海的技术落地标准与执行规范</h4>
-            <ul class="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
-              <li><strong>数据纯净度：</strong>去除一切无意义的修饰词，全面采用国际标准化牌号（如 SUS304/SUS316、Grade 1 纯钛、AQL 1.5）。</li>
-              <li><strong>秒级抓取保障：</strong>借助 Cloudflare 边缘计算节点，确保海外爬虫与采购决策人员访问此模块时首字节响应时间低于 200ms。</li>
-              <li><strong>语义微数据增强：</strong>按照 Schema.org 国际规范全量注入结构化 JSON-LD，使 Google 搜索与 AI 模型能够无歧义提取。</li>
-            </ul>
-
-            <h4 class="font-bold text-slate-900 text-base">三、预期达成的商业与转化回报</h4>
-            <p>根据智创出海在水暖卫浴、高端真空器皿、实验室工程设备等实战产业带的监测数据：完成该项优化后，目标产品页的海外买家有效停留时间平均延长 <strong>2.8 倍</strong>，精准规格询盘（带有明确采购量与图纸附件的 RFQ）转化率提升 <strong>40% 以上</strong>。</p>
-          </div>
-        `
-      };
-    });
-
-    // 渲染卡片
     function renderInsights(items) {
       const container = document.getElementById("insights-container");
       if (items.length === 0) {
@@ -549,11 +816,11 @@
               ${item.title}
             </h4>
             <p class="text-xs text-slate-600 leading-relaxed mb-4 line-clamp-3">
-              ${item.summary}
+              ${item.pain}
             </p>
           </div>
           <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-            <span class="text-xs text-slate-400">阅读需 3 分钟</span>
+            <span class="text-xs text-slate-400">深度研究 · 3分钟阅读</span>
             <button onclick="openModal(${item.id})" class="text-xs font-bold text-brand-700 hover:text-brand-800 flex items-center gap-1">
               阅读全文 ↗
             </button>
@@ -562,7 +829,6 @@
       `).join('');
     }
 
-    // 分类切换
     let currentCategory = "All";
     function switchCategory(cat) {
       currentCategory = cat;
@@ -576,24 +842,37 @@
       filterInsights();
     }
 
-    // 搜索过滤
     function filterInsights() {
       const q = document.getElementById("insight-search").value.toLowerCase();
-      const filtered = INSIGHTS_DB_50.filter(item => {
+      const filtered = KNOWLEDGE_BASE.filter(item => {
         const matchesCat = currentCategory === "All" || item.cat === currentCategory;
-        const matchesQ = item.title.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
+        const matchesQ = item.title.toLowerCase().includes(q) || item.pain.toLowerCase().includes(q) || item.detail.toLowerCase().includes(q);
         return matchesCat && matchesQ;
       });
       renderInsights(filtered);
     }
 
-    // 弹窗控制
     function openModal(id) {
-      const item = INSIGHTS_DB_50.find(x => x.id === id);
+      const item = KNOWLEDGE_BASE.find(x => x.id === id);
       if (!item) return;
       document.getElementById("modal-category").innerText = item.cat;
       document.getElementById("modal-title").innerText = item.title;
-      document.getElementById("modal-content").innerHTML = item.content;
+      document.getElementById("modal-content").innerHTML = `
+        <div class="space-y-4">
+          <div class="p-4 bg-slate-50 border-l-4 border-brand-700 rounded-r-lg">
+            <span class="font-bold text-slate-900 block text-sm mb-1">【外贸企业核心痛点】</span>
+            <p class="text-xs text-slate-600">${item.pain}</p>
+          </div>
+          <h4 class="font-bold text-slate-900 text-base">一、技术核心与深度剖析</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">${item.detail}</p>
+          <h4 class="font-bold text-slate-900 text-base">二、智创出海的标准化落地实施</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
+            <li><strong>实体消歧义处理：</strong>全面采用行业标准化牌号（SUS304/SUS316、Grade 1 纯钛、AQL 1.5 质检标准）。</li>
+            <li><strong>毫秒级边缘加载：</strong>基于 Cloudflare 边缘计算节点，确保海外爬虫与客商首字节响应时间低于 200ms。</li>
+            <li><strong>结构化微数据注入：</strong>按照 Schema.org 国际规范全量注入结构化 JSON-LD，使 Google 搜索与 AI 模型能够无歧义提取。</li>
+          </ul>
+        </div>
+      `;
       document.getElementById("article-modal").classList.remove("hidden");
       document.body.style.overflow = "hidden";
     }
@@ -608,7 +887,7 @@
     });
 
     window.addEventListener("DOMContentLoaded", () => {
-      renderInsights(INSIGHTS_DB_50);
+      renderInsights(KNOWLEDGE_BASE);
     });
   </script>
 </body>

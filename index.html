@@ -1,1 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智创出海科技 | 下一代高性能外贸建站、Google优化与AI GEO推广服务商</title>
+  <meta name="description" content="专注为中国外贸出口及制造企业打造下一代轻量化独立站。采用全球边缘CDN加速与无服务器架构，终身0服务器年费，深度打通Google SEO与AI大模型(GEO)智能引用规范。">
+  <meta name="keywords" content="外贸独立站建设, 网站优化推广, Google SEO, GEO生成式引擎优化, 企业建站, 独立站免年费, 泉州外贸建站">
+  
+  <!-- 引入 Tailwind CSS 构建现代化中文排版体系 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              600: '#15803d',
+              700: '#166534',
+              800: '#14532d',
+              900: '#0f3d22'
+            }
+          }
+        }
+      }
+    }
+  </script>
 
+  <!-- 针对 Google 与大模型抓取的 Schema.org 结构化微数据 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "智创出海数字化营销服务",
+    "description": "面向出海制造企业的现代高性能建站与生成式AI引擎优化服务。",
+    "serviceType": ["Website Development", "Google SEO", "Generative Engine Optimization"],
+    "areaServed": "Global",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "核心服务矩阵",
+      "itemListElement": [
+        { "@type": "Offer", "name": "新一代免服务器年费高性能外贸建站" },
+        { "@type": "Offer", "name": "Google 技术性 SEO 与富媒体摘要优化" },
+        { "@type": "Offer", "name": "GEO (生成式AI搜索与知识图谱引用) 推广" }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-glow {
+      background: radial-gradient(circle at 50% 20%, rgba(21, 128, 61, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans flex flex-col min-h-screen">
+
+  <!-- 顶部导航栏 -->
+  <header class="bg-white/90 backdrop-blur-md sticky top-0 z-40 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-brand-700 flex items-center justify-center text-white font-black text-xl shadow-md">
+          智
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-slate-900 block leading-tight">智创出海科技</span>
+          <span class="text-xs text-slate-500 font-medium tracking-wider">NEXT-GEN WEB & AI GEO</span>
+        </div>
+      </div>
+      
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+        <a href="#services" class="hover:text-brand-700 transition">核心服务体系</a>
+        <a href="#comparison" class="hover:text-brand-700 transition">技术差异对标</a>
+        <a href="#cases" class="hover:text-brand-700 transition">标杆方案演示</a>
+        <a href="#insights" class="hover:text-brand-700 transition">AI与SEO行业智库</a>
+        <a href="#contact" class="hover:text-brand-700 transition">联系我们</a>
+      </nav>
+
+      <div class="flex items-center space-x-3">
+        <a href="#contact" class="bg-brand-700 hover:bg-brand-800 text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-sm transition">
+          预约免费网站体检
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 首屏视觉 (Hero Section) -->
+  <section class="hero-glow py-20 lg:py-28 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-50 border border-brand-200 text-brand-700 text-xs font-bold mb-8">
+        <span class="flex h-2 w-2 rounded-full bg-brand-600 animate-pulse"></span>
+        新一代外贸与制造企业数字化出海引擎
+      </div>
+      
+      <h1 class="text-4xl sm:text-6xl font-black text-slate-900 tracking-tight leading-tight sm:leading-snug max-w-4xl mx-auto">
+        拒绝慢速与昂贵年费<br>
+        用<span class="text-brand-700">下一代高性能独立站</span>赢下全球订单
+      </h1>
+      
+      <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+        告别传统 WordPress 频繁卡顿、每年数千元虚机空间费与黑客挂马风险。<br class="hidden sm:inline">
+        我们采用<strong>全球边缘节点技术 + 结构化知识图谱</strong>，让您的产品不仅在欧美买家端<strong>秒级加载</strong>，更能直接被 <strong>Google 首页与 ChatGPT、Perplexity、Gemini</strong> 优先引用推荐。
+      </p>
+
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 bg-brand-700 hover:bg-brand-800 text-white rounded-lg text-base font-bold shadow-lg shadow-brand-700/20 transition text-center">
+          获取专属外贸建站与SEO方案
+        </a>
+        <a href="#comparison" class="w-full sm:w-auto px-8 py-3.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 rounded-lg text-base font-bold transition text-center">
+          查看与传统建站的区别
+        </a>
+      </div>
+
+      <!-- 核心指标标签 -->
+      <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto border-t border-slate-200 pt-10 text-left">
+        <div class="p-4 bg-white rounded-xl border border-slate-200/60 shadow-sm">
+          <div class="text-2xl sm:text-3xl font-extrabold text-brand-700">0 元/年</div>
+          <div class="text-xs text-slate-500 mt-1 font-medium">服务器空间与数据库维护年费</div>
+        </div>
+        <div class="p-4 bg-white rounded-xl border border-slate-200/60 shadow-sm">
+          <div class="text-2xl sm:text-3xl font-extrabold text-brand-700">&lt; 300ms</div>
+          <div class="text-xs text-slate-500 mt-1 font-medium">全球边缘 CDN 首屏加载耗时</div>
+        </div>
+        <div class="p-4 bg-white rounded-xl border border-slate-200/60 shadow-sm">
+          <div class="text-2xl sm:text-3xl font-extrabold text-brand-700">100% 独立</div>
+          <div class="text-xs text-slate-500 mt-1 font-medium">全套源代码与产品数据完全归客户</div>
+        </div>
+        <div class="p-4 bg-white rounded-xl border border-slate-200/60 shadow-sm">
+          <div class="text-2xl sm:text-3xl font-extrabold text-brand-700">GEO 标配</div>
+          <div class="text-xs text-slate-500 mt-1 font-medium">生成式 AI 大模型搜索标准化微数据</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 核心业务服务矩阵 (Services) -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-xs font-bold text-brand-700 uppercase tracking-widest mb-3">SERVICES & SOLUTIONS</h2>
+        <h3 class="text-3xl font-black text-slate-900 tracking-tight">为您提供端到端的出海数字化增长闭环</h3>
+        <p class="mt-4 text-slate-600 text-base">从高转化视觉工业设计、到技术级底层速度优化，再到 AI 时代全渠道买家触达。</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- 业务 1 -->
+        <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-brand-600 transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center font-bold text-xl mb-6">
+              01
+            </div>
+            <h4 class="text-xl font-bold text-slate-900 mb-3">下一代高性能独立站建设</h4>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">
+              抛弃传统笨重老旧 CMS，基于现代 JAMstack 静态预渲染架构。首屏极速加载，免受黑客注入威胁，并赠送可视化后台，业务员手机扫码随时发品。
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-8">
+              <li class="flex items-center gap-2">✓ 全球 300+ 边缘 CDN 节点智能分发</li>
+              <li class="flex items-center gap-2">✓ 终身免交服务器、数据库租用年费</li>
+              <li class="flex items-center gap-2">✓ 自动签发全站永久免费 HTTPS 安全证书</li>
+            </ul>
+          </div>
+          <a href="#contact" class="text-sm font-bold text-brand-700 hover:text-brand-800 flex items-center gap-1">咨询建站细节 →</a>
+        </div>
+
+        <!-- 业务 2 -->
+        <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-brand-600 transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center font-bold text-xl mb-6">
+              02
+            </div>
+            <h4 class="text-xl font-bold text-slate-900 mb-3">Google 技术性 SEO 深度优化</h4>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">
+              拒绝只靠发外链的虚假繁荣。我们从底层代码级做好 Google Core Web Vitals、全站结构化 Schema 标记、语义化标签排版，让爬虫更懂您的产品规格。
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-8">
+              <li class="flex items-center gap-2">✓ Schema.org 工业产品规格微数据嵌入</li>
+              <li class="flex items-center gap-2">✓ 页面 Core Web Vitals 评分冲刺 90+ 分</li>
+              <li class="flex items-center gap-2">✓ 自动化 XML Sitemap 与搜索引擎即时索引</li>
+            </ul>
+          </div>
+          <a href="#contact" class="text-sm font-bold text-brand-700 hover:text-brand-800 flex items-center gap-1">获取优化诊断 →</a>
+        </div>
+
+        <!-- 业务 3 -->
+        <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-brand-600 transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center font-bold text-xl mb-6">
+              03
+            </div>
+            <h4 class="text-xl font-bold text-slate-900 mb-3">GEO (生成式AI搜索) 布局推广</h4>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">
+              海外高端买家正在转向使用 ChatGPT、Perplexity、Gemini 搜寻工厂。我们为您布局机器可读知识图谱与技术白皮书，直接占领大模型引用推荐源头。
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-8">
+              <li class="flex items-center gap-2">✓ 工业知识库与技术白皮书自动化矩阵</li>
+              <li class="flex items-center gap-2">✓ OpenAPI / 机器可读服务规范对接</li>
+              <li class="flex items-center gap-2">✓ 抢占海外 AI 搜索对话中的供应商首推权</li>
+            </ul>
+          </div>
+          <a href="#contact" class="text-sm font-bold text-brand-700 hover:text-brand-800 flex items-center gap-1">探索 GEO 方案 →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 差异对标对比 (Comparison Table) -->
+  <section id="comparison" class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900">为什么精明的企业不再选择传统建站？</h3>
+        <p class="mt-3 text-slate-600 text-sm">直观对比，看清每一年花出去的建站费到底值不值。</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-slate-100/70 border-b border-slate-200 text-slate-700 font-bold">
+              <tr>
+                <th class="p-4 sm:p-5">对比维度</th>
+                <th class="p-4 sm:p-5 text-slate-500">传统外贸建站公司 (WordPress/虚机模板)</th>
+                <th class="p-4 sm:p-5 text-brand-700 bg-brand-50/60">智创出海 (下一代 JAMstack 架构)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr>
+                <td class="p-4 sm:p-5 font-bold text-slate-800">每年后期维护费用</td>
+                <td class="p-4 sm:p-5 text-red-500">每年强制收取 2,000~5,000 元（空间费/维护费）</td>
+                <td class="p-4 sm:p-5 text-brand-700 font-bold bg-brand-50/60">永久 0 元服务器维护费，代码完全买断</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-bold text-slate-800">海外买家打开速度</td>
+                <td class="p-4 sm:p-5">单点服务器受限，欧美加载往往超 3~5 秒</td>
+                <td class="p-4 sm:p-5 text-brand-700 font-bold bg-brand-50/60">全球 300+ 边缘节点缓存，毫秒级即时秒开</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-bold text-slate-800">安全性与防黑客能力</td>
+                <td class="p-4 sm:p-5">数据库常年暴露公网，极易被扫描注入赌博链接</td>
+                <td class="p-4 sm:p-5 text-brand-700 font-bold bg-brand-50/60">无动态 SQL 数据库，从物理原理上免疫挂马攻击</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-bold text-slate-800">AI 大模型引用优化 (GEO)</td>
+                <td class="p-4 sm:p-5">完全没有相关意识，代码充斥冗余垃圾插件</td>
+                <td class="p-4 sm:p-5 text-brand-700 font-bold bg-brand-50/60">标配 Schema.org、知识图谱与机器可读文档</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-bold text-slate-800">客户资料与源代码归属</td>
+                <td class="p-4 sm:p-5">绑定在建站商私有平台，一旦不续费网站直接关闭</td>
+                <td class="p-4 sm:p-5 text-brand-700 font-bold bg-brand-50/60">代码与产品数据托管在客户独立仓库，随时可迁</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 标杆方案与产品矩阵演示 (Cases) -->
+  <section id="cases" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <h2 class="text-xs font-bold text-brand-700 uppercase tracking-widest mb-2">CASE STUDY & EXAMPLES</h2>
+          <h3 class="text-3xl font-black text-slate-900 tracking-tight">我们打造的工业级实战案例</h3>
+        </div>
+        <p class="text-slate-500 text-sm mt-3 md:mt-0">涵盖真空器皿、实验室设备、卫浴五金等多个外贸产业带实盘验证</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition bg-slate-50 flex flex-col">
+          <div class="h-44 bg-slate-900 text-white flex flex-col justify-center items-center p-6 text-center">
+            <span class="text-xs uppercase tracking-widest text-brand-400 font-semibold mb-1">Industrial Sourcing</span>
+            <div class="font-bold text-xl">高端饮水具与纯钛保温杯外贸站</div>
+            <div class="text-xs text-slate-400 mt-2">对标 Stanley / YETI 工艺级参数</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+              针对欧美商超及亚马逊大卖家打造，内置 15 个细分产品线、材质冶金对比表、自动邮件直达询盘，全站通过 Cloudflare 边缘秒开。
+            </p>
+            <span class="text-xs font-bold text-brand-700">技术特点：知识图谱 + 静态预编译 + 邮件直联</span>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition bg-slate-50 flex flex-col">
+          <div class="h-44 bg-slate-800 text-white flex flex-col justify-center items-center p-6 text-center">
+            <span class="text-xs uppercase tracking-widest text-brand-400 font-semibold mb-1">B2B Machinery</span>
+            <div class="font-bold text-xl">定制实验室家具与工程装备站</div>
+            <div class="text-xs text-slate-400 mt-2">面向中东及东南亚工程总包项目</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+              突出承重数据、耐酸碱实测认证（SEFA-8M 规范）与海外工程案列库，结合精准长尾工程词优化，大幅降低获客成本。
+            </p>
+            <span class="text-xs font-bold text-brand-700">技术特点：AQL 标准内嵌 + 手机号后台自由登改</span>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition bg-slate-50 flex flex-col">
+          <div class="h-44 bg-slate-900 text-white flex flex-col justify-center items-center p-6 text-center">
+            <span class="text-xs uppercase tracking-widest text-brand-400 font-semibold mb-1">Global Sanitary</span>
+            <div class="font-bold text-xl">智能卫浴与水暖五金出口门户</div>
+            <div class="text-xs text-slate-400 mt-2">欧洲商超及专业工程分销直供</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+              深度配置 CE / WRAS / Watermark 合规白皮书，集成 GEO 大模型抓取结构，在海外 AI 搜索推荐中保持极高权重。
+            </p>
+            <span class="text-xs font-bold text-brand-700">技术特点：多语言支持 + 深度富媒体微数据</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 行业深度智库与AI/GEO知识库 (Insights & News) -->
+  <section id="insights" class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="text-xs font-bold text-brand-700 uppercase tracking-widest mb-2">INDUSTRY KNOWLEDGE & GEO</h2>
+        <h3 class="text-3xl font-black text-slate-900 tracking-tight">AI时代外贸数字营销与建站技术洞察</h3>
+        <p class="mt-3 text-slate-600 text-sm">赋能制造企业掌握底层算法逻辑，让全球买家与 AI 搜索引擎找到您。</p>
+      </div>
+
+      <!-- 分类筛选器 -->
+      <div class="flex flex-wrap gap-2 justify-center mb-8" id="category-tabs">
+        <button onclick="switchCategory('All')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-brand-700 text-white transition">全部专题</button>
+        <button onclick="switchCategory('GEO与AI搜索')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">GEO与AI搜索</button>
+        <button onclick="switchCategory('外贸SEO技术')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">外贸SEO技术</button>
+        <button onclick="switchCategory('结构化微数据')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">结构化微数据</button>
+        <button onclick="switchCategory('出海转化实战')" class="tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition">出海转化实战</button>
+      </div>
+
+      <!-- 动态知识库卡片网格 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="insights-container">
+        <!-- 由 JavaScript 渲染 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 沉浸式文章阅读弹窗 (Modal) -->
+  <div id="article-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+    <div class="bg-white w-full max-w-3xl rounded-2xl shadow-2xl border border-slate-100 my-8 overflow-hidden flex flex-col max-h-[90vh]">
+      <div class="p-6 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+        <span id="modal-category" class="text-xs font-bold px-3 py-1 rounded-full bg-brand-100 text-brand-800">专题分类</span>
+        <button onclick="closeModal()" class="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg text-lg">✕</button>
+      </div>
+      <div class="p-6 sm:p-10 overflow-y-auto space-y-4">
+        <h3 id="modal-title" class="text-2xl font-black text-slate-900 leading-snug">文章标题</h3>
+        <div class="text-xs text-slate-400 border-b border-slate-100 pb-4">发布时间：2026年 · 智创出海技术委员会 · 原创深度报告</div>
+        <div id="modal-content" class="text-slate-600 text-sm leading-relaxed space-y-4 pt-2">
+          <!-- 动态注入长文 -->
+        </div>
+      </div>
+      <div class="p-5 border-t border-slate-100 bg-slate-50 flex items-center justify-between">
+        <span class="text-xs text-slate-500">想要将该技术落地到您的独立站？</span>
+        <a href="#contact" onclick="closeModal()" class="px-4 py-2 bg-brand-700 hover:bg-brand-800 text-white rounded-md text-xs font-bold transition">立即免费预约诊断</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 联系与询盘表单 (Contact) -->
+  <section id="contact" class="py-20 bg-slate-900 text-white relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- 左侧文案与商务沟通信息 -->
+        <div class="lg:col-span-5 space-y-6">
+          <span class="text-xs font-bold text-brand-400 tracking-widest uppercase">GET IN TOUCH</span>
+          <h3 class="text-3xl font-black text-white tracking-tight leading-snug">
+            准备好升级您的<br>数字化出海门户了吗？
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            填写右侧表单，我们的资深技术与营销顾问将在 <strong>4 小时内</strong> 与您联系，并免费为您提供一份价值 2,000 元的《海外同行业独立站速度与 SEO 诊断报告》。
+          </p>
+
+          <div class="space-y-4 pt-4 border-t border-slate-800 text-sm text-slate-300">
+            <div class="flex items-center gap-3">
+              <span class="text-brand-400 font-bold">直联业务：</span>
+              <span>138-0000-0000（微信同号）</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-brand-400 font-bold">咨询邮箱：</span>
+              <span>sales@fjwmkc.com</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-brand-400 font-bold">服务驻点：</span>
+              <span>福建泉州 · 厦门 · 面向全国制造业出海</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右侧询盘直连表单 (Formspree 直推邮箱) -->
+        <div class="lg:col-span-7 bg-white text-slate-800 p-8 sm:p-10 rounded-2xl shadow-xl">
+          <h4 class="text-xl font-bold text-slate-900 mb-2">预约 1 对 1 方案定制与报价</h4>
+          <p class="text-xs text-slate-500 mb-6">您的隐私信息将被严格保密，提交后直接送达技术负责人邮箱</p>
+
+          <form action="https://formspree.io/f/xkjodygl" method="POST" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">您的姓名 / 职务 *</label>
+                <input type="text" name="name" required placeholder="如：陈经理" 
+                       class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-600 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">手机号 / 微信 *</label>
+                <input type="text" name="phone_wechat" required placeholder="接收诊断报告" 
+                       class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-600 focus:outline-none">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">企业全称 / 主营出口产品 *</label>
+              <input type="text" name="company_product" required placeholder="如：某某实业有限公司（主营纯钛保温杯/水暖卫浴）" 
+                     class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-600 focus:outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">现有网站域名 (若无可留空)</label>
+              <input type="text" name="existing_website" placeholder="如：www.example.com" 
+                     class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-600 focus:outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">核心需求 / 期望解决的痛点</label>
+              <textarea name="message" rows="3" placeholder="例如：现有网站太卡、想换掉每年几千块维护费的老站、需要做 Google 关键词或 AI 搜索推广..." 
+                        class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-600 focus:outline-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 bg-brand-700 hover:bg-brand-800 text-white rounded-lg text-sm font-bold shadow-md transition">
+              立即提交 · 免费获取网站体检与方案
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="bg-slate-950 text-slate-500 py-10 text-xs text-center border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 space-y-2">
+      <p class="text-slate-400 font-medium">智创出海数字化营销服务平台 · 专注下一代工业建站与生成式AI引擎优化</p>
+      <p>© 2026 智创出海 保留所有权利 · 全球边缘加速架构驱动 · 免维护免年费标准交付</p>
+    </div>
+  </footer>
+
+  <!-- 行业知识库数据源与交互脚本 -->
+  <script>
+    // 行业深度技术与 GEO / SEO 知识库精选数据
+    const INSIGHTS_DB = [
+      {
+        id: 1,
+        cat: "GEO与AI搜索",
+        title: "什么是 GEO (生成式引擎优化)？为什么外贸企业必须抢在同行前布局？",
+        summary: "当欧美专业买家越来越习惯在 ChatGPT、Perplexity、Gemini 中输入产品规格寻找源头工厂，传统的关键词堆砌彻底失效，如何让 AI 模型优先‘推荐并引用’你的网站？",
+        content: `
+          <p class="font-bold text-slate-900">一、从传统搜索引擎向“答案生成引擎”的迁徙</p>
+          <p>过去的海外买家使用 Google，点击进入 10 个蓝色链接一个一个筛选；现在的采购决策者直接使用 AI 提问：“推荐 3 家通过 FDA/LFGB 认证、具备 40oz 汽车杯钎焊真空工艺的中国源头大厂”。如果您的网站没有对大模型友好的数据结构，您将在买家第一轮 AI 筛选中彻底隐形。</p>
+          <p class="font-bold text-slate-900">二、GEO 的三大技术核心</p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li><strong>实体消歧义 (Entity Disambiguation)：</strong>用行业标准化术语（如 SUS316、Grade 1 纯钛、10⁻³ Pa 真空度）替代泛泛的广告文案。</li>
+            <li><strong>结构化机器可读层：</strong>嵌入 JSON-LD 与清晰的 HTML5 表格，让爬虫不需要渲染庞大 JS 就能读取全套参数。</li>
+            <li><strong>权威技术白皮书：</strong>发布包含质检规范（AQL 1.5）、温控衰减曲线的深度内容，成为 AI 的置信引用源。</li>
+          </ul>
+        `
+      },
+      {
+        id: 2,
+        cat: "外贸SEO技术",
+        title: "首屏加载每慢 1 秒流失 20% 买家！全球边缘 CDN 架构如何实现欧美毫秒级秒开？",
+        summary: "很多工厂把网站放在国内虚机或香港单点服务器，欧美客户打开需要 4~7 秒。拆解现代轻量化静态架构与全球 300 个边缘节点协同的提速奥秘。",
+        content: `
+          <p class="font-bold text-slate-900">一、为什么传统的 WordPress 网站越来越卡？</p>
+          <p>WordPress 每次打开都需要经历“PHP 解析 + 数据库查询 + 加载 20 多个杂乱插件”，在海外弱网或长距离跨洋传输时，TTFB（首字节响应时间）往往超过 1.5 秒。欧美客户的耐心极限通常只有 2 秒。</p>
+          <p class="font-bold text-slate-900">二、JAMstack 静态预渲染的降维优势</p>
+          <p>我们的技术方案直接在发布时预先将 HTML 生成完毕，缓存推送到遍布全球的 Cloudflare Anycast CDN 边缘机房。当德国或美国买家访问时，直接从他所在城市的机房就近取回网页，TTFB 压低至 100ms 以内，Google 测速直接亮起 90+ 绿灯。</p>
+        `
+      },
+      {
+        id: 3,
+        cat: "结构化微数据",
+        title: "如何利用 Schema.org 标准微数据，让产品在 Google 搜索结果中展示‘价格与星级富媒体’？",
+        summary: "普通网页在 Google 只显示一段蓝字描述，而配置了 Schema.org 的专业站点能直接展示出产品起订量、HS Code、认证证书与 FAQ 问答，点击率翻倍提升。",
+        content: `
+          <p class="font-bold text-slate-900">一、富媒体摘要 (Rich Snippets) 的视觉压制</p>
+          <p>Google 会在搜索结果页直接为符合 Schema 标准的页面附带专属功能卡片。如果您的产品详情页标记了 Product 和 AggregateOffer，买家在搜索结果页就能一眼看到【MOQ: 500 pcs】、【In Stock】、【ISO9001 认证】，极大提升信任感。</p>
+          <p class="font-bold text-slate-900">二、我们为工业建站内置的微数据矩阵</p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li><strong>Product 规范：</strong>型号、规格、材质标准、包装体积。</li>
+            <li><strong>FAQPage 规范：</strong>常见采购答疑直接在 Google 结果折叠展开。</li>
+            <li><strong>Organization 规范：</strong>标注工厂经纬度、统一信用代码、出口市场，强化官方权威度。</li>
+          </ul>
+        `
+      },
+      {
+        id: 4,
+        cat: "出海转化实战",
+        title: "外贸独立站为何‘有流量无询盘’？拆解工业品高转化落地页的 7 大黄金模块",
+        summary: "很多外贸站看起来华丽，却常年收不到有效 RFQ。因为 B2B 采购决策者寻找的是工程参数与合规背书，而不是花哨的动画与套话。",
+        content: `
+          <p class="font-bold text-slate-900">一、B2B 专业买家的心理审查清单</p>
+          <p>大宗采购的买家第一关心合规（有没有 FDA、LFGB、CE），第二关心产能与交期（日产量、打样速度），第三关心品控标准（AQL 1.5 还是 2.5）。</p>
+          <p class="font-bold text-slate-900">二、高转化详情页的架构模板</p>
+          <p>1. 极简高清白底图与 3D 剖面结构图；<br>2. 完整的冶金材质牌号对照表；<br>3. 真实车间实拍与自动化钎焊炉视频；<br>4. 免复杂注册的极简询盘表单，提交直接推送至业务员微信/邮箱，做到 10 分钟快速回盘。</p>
+        `
+      },
+      {
+        id: 5,
+        cat: "外贸SEO技术",
+        title: "揭秘传统建站年费陷阱：为什么一次建站后，每年还要交几千元‘空间维护费’？",
+        summary: "深入剖析传统外贸建站服务商的商业套路。通过现代化静态托管，企业完全可以实现核心站点终身 0 维护费，同时拥有代码 100% 独立掌控权。",
+        content: `
+          <p class="font-bold text-slate-900">一、建站行业的‘按年收租’模式</p>
+          <p>传统建站公司将客户网站放在一台普通的共享虚拟机上，每年以“服务器租用、带宽扩容、数据库备份”等名目收取 2,000 到 8,000 元不等的年费。一旦企业某年不续费，网站立即被强行拔线关停，客户毫无谈判筹码。</p>
+          <p class="font-bold text-slate-900">二、智创出海的轻量化革命</p>
+          <p>我们采用开源代码买断机制，网站数据直接存放在客户专属的 GitHub 仓库，由全球顶级 CDN（Cloudflare）免费托管。客户不仅不用再交一分钱服务器租金，更拥有绝对的知识产权与数据归属权。</p>
+        `
+      },
+      {
+        id: 6,
+        cat: "GEO与AI搜索",
+        title: "从传统关键词到向量嵌入：AI 搜索引擎如何读取并记忆您的工厂核心技术？",
+        summary: "揭秘 ChatGPT 与 Perplexity 底层的 RAG（检索增强生成）机制，指导制造工厂如何编写符合大模型向量切片的工程白皮书与技术词汇表。",
+        content: `
+          <p class="font-bold text-slate-900">一、大模型眼中的网页不是文本，而是知识块 (Chunks)</p>
+          <p>AI 爬虫抓取网页时，会把内容切分为 300~500 词的语义块并计算向量相似度。如果一个网页全是空洞的口号（如“品质第一、诚信天下”），向量权重极低，在检索时会被直接丢弃。</p>
+          <p class="font-bold text-slate-900">二、如何构建高权重知识库？</p>
+          <p>必须采用“问题-原理-参数-验证标准”的结构化写法。例如撰写一篇《SUS304与SUS316耐腐蚀性能盐雾测试对比》，明确写出 48 小时中性盐雾测试参数，AI 抓取后便会永远将您的品牌与高品质防腐蚀材质绑定在一起。</p>
+        `
+      }
+    ];
+
+    // 渲染知识库卡片
+    function renderInsights(items) {
+      const container = document.getElementById("insights-container");
+      container.innerHTML = items.map(item => `
+        <div class="bg-white rounded-xl border border-slate-200 p-6 hover:shadow-lg transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+              <span class="px-2.5 py-0.5 rounded-full font-bold bg-brand-50 text-brand-700">${item.cat}</span>
+              <span>深度研究</span>
+            </div>
+            <h4 class="text-base font-bold text-slate-900 mb-2 leading-snug hover:text-brand-700 transition cursor-pointer" onclick="openModal(${item.id})">
+              ${item.title}
+            </h4>
+            <p class="text-xs text-slate-600 leading-relaxed mb-4 line-clamp-3">
+              ${item.summary}
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs text-slate-400">阅读需 3 分钟</span>
+            <button onclick="openModal(${item.id})" class="text-xs font-bold text-brand-700 hover:text-brand-800 flex items-center gap-1">
+              阅读全文 ↗
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // 分类切换
+    function switchCategory(cat) {
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        if (btn.innerText.includes(cat)) {
+          btn.className = "tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-brand-700 text-white transition";
+        } else {
+          btn.className = "tab-btn px-4 py-1.5 rounded-full text-xs font-bold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition";
+        }
+      });
+
+      if (cat === "All") {
+        renderInsights(INSIGHTS_DB);
+      } else {
+        const filtered = INSIGHTS_DB.filter(x => x.cat === cat);
+        renderInsights(filtered);
+      }
+    }
+
+    // 弹窗交互
+    function openModal(id) {
+      const item = INSIGHTS_DB.find(x => x.id === id);
+      if (!item) return;
+      document.getElementById("modal-category").innerText = item.cat;
+      document.getElementById("modal-title").innerText = item.title;
+      document.getElementById("modal-content").innerHTML = item.content;
+      document.getElementById("article-modal").classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      document.getElementById("article-modal").classList.add("hidden");
+      document.body.style.overflow = "auto";
+    }
+
+    // 点击背景遮罩关闭弹窗
+    document.getElementById("article-modal").addEventListener("click", function(e) {
+      if (e.target === this) closeModal();
+    });
+
+    // 页面载入初始化
+    window.addEventListener("DOMContentLoaded", () => {
+      renderInsights(INSIGHTS_DB);
+    });
+  </script>
+</body>
+</html>
